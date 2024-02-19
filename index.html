@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quick-Crave</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!-- Menu -->
+    <div class="menu">
+        <nav>
+            <input type="checkbox" id="check" />
+            <label for="check" class="checkbtn">
+                <ion-icon name="grid-outline"></ion-icon>
+            </label>
+
+            <label class="logo">QuickCrave</label>
+
+            <ul>
+                <li><a href="#hero-section" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#app">Download App</a></li>
+            </ul>
+        </nav>
+    </div>
+    <!-- End Menu -->
+
+    <!-- Hero Section -->
+    <div class="section flex" id="hero-section">
+        <div class="text">
+            <h1 class="primary-heading">
+                We invite you to our restaurant</span>
+            </h1>
+
+            <p class="tertiary">
+                Making fast food extraordinary, turning every bite into a gourmet delight. Experience tasty adventures in the speedy lane
+            </p>
+
+            <a href="#menu" class="btn">Explore Menu</a>
+        </div>
+        <div class="visual">
+            <img src="./image/hamburger-1238246_640 (1).jpg" alt="" />
+        </div>
+    </div>
+    <!-- End Hero Section -->
+
+    <section class="section-meals">
+        <div class="txt">
+            <h1>Best Seller</h1>
+        </div>
+        <div class="container grid grid--3-cols margin-right-md">
+            <div class="meal">
+                <img src="./image/paneerchilli.jpg"
+                    class="meal-img" alt="Paneer chilli" />
+                <div class="meal-content">
+                    <div class="meal-tags">
+                        <span class="tag tag--vegetarian">Vegetarian</span>
+                    </div>
+                    <p class="meal-title">Paneer Chilli</p>
+                    <ul class="meal-attributes">
+                        <li class="meal-attribute">
+                            <ion-icon class="meal-icon" name="flame-outline"></ion-icon><span><strong>250</strong>
+                                calories</span>
+                        </li>
+                        <li class="meal-attribute">
+                            <ion-icon class="meal-icon" name="star-outline"></ion-icon><span><strong>4.2</strong> rating
+                                (537)</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="meal">
+                <img src="./image/biryani.jpg"
+                    class="meal-img" alt="Chicken Biryani" />
+                <div class="meal-content">
+                    <div class="meal-tags">
+                        <span class="tag tag--nonveg">Non Vegeterian</span>
+                        
+                    </div>
+                    <p class="meal-title">Chicken Biryani</p>
+                    <ul class="meal-attributes">
+                        <li class="meal-attribute">
+                            <ion-icon class="meal-icon" name="flame-outline"></ion-icon><span><strong>800</strong>
+                                calories</span>
+                        </li>
+                        <li class="meal-attribute">
+                            <ion-icon class="meal-icon" name="star-outline"></ion-icon><span><strong>4.8</strong> rating
+                                (481)</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="meal">
+                <img src="./image/cholebhature.jpg"
+                    class="meal-img" alt="Chole-Bhature" />
+                <div class="meal-content">
+                    <div class="meal-tags">
+                        <span class="tag tag--vegan">Vegan</span>
+                        <span class="tag tag--vegeterian">Vegeterian</span>
+                    </div>
+                    <p class="meal-title">Chole Bhature</p>
+                    <ul class="meal-attributes">
+                        <li class="meal-attribute">
+                            <ion-icon class="meal-icon" name="flame-outline"></ion-icon><span><strong>770</strong>
+                                calories</span>
+                        </li>
+                        <li class="meal-attribute">
+                            <ion-icon class="meal-icon" name="star-outline"></ion-icon><span><strong>4.7</strong> rating
+                                (613)</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- How It Works -->
+    <div class="section" id="how-it-works">
+        <div class="txt">
+            <h1>How It's Work</h1>
+        </div>
+
+        <div class="container flex">
+            <div class="box">
+                <h3>Easy Order</h3>
+                <ion-icon name="timer-outline"></ion-icon>
+                <p>
+                    Experience hassle-free ordering at your fingertips! Quick bites, faster delights–order now for swift and savory satisfaction
+                </p>
+            </div>
+
+            <div class="box active">
+                <h3>Best Quality</h3>
+                <ion-icon style="color: black;" name="trophy-outline"></ion-icon>
+                <p>
+                    Fast, flavorful, and crafted with care. Elevate your taste with our quality fast food creations
+                </p>
+            </div>
+
+            <div class="box">
+                <h3>Fast Delivery</h3>
+                <ion-icon name="checkmark-done-circle-outline"></ion-icon>
+                <p>
+                    Experience lightning-fast delivery at our fast food haven. Quick, hot, and straight to your doorstep – because great taste shouldn't wait
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- End How It Works -->
+
+    <!-- About -->
+    <div class="section" id="about">
+        <div class="container flex">
+            <div class="visual">
+                <img src="./image/pizza.jpg" alt="" />
+            </div>
+            <div class="text">
+                <div class="secondary">About Our Restaurant</div>
+                <h4 class="primary">100+ Variety</h4>
+                <br>
+                
+
+                <p class="about_stuff">
+                    Quick Crave offers a world of flavour. Our fast food haven celebrates short snacks and robust flavours. From sizzling burgers to crunchy fries, every meal is a gourmet delight. With a focus on quality and speed, we reinvent fast food by bringing a mix of freshness and flavour directly to your home. Join us in the fast lane of flavour, where each bite is a journey worth taking.
+                </p>
+
+                <a href="#menu" class="btn">Explore Menu</a>
+            </div>
+        </div>
+    </div>
+    <!-- End About -->
+
+    <!-- Restaurant Menu -->
+    <div class="section" id="menu">
+        <div class="container-menu">
+            <ul class="category">
+                <li class="active" onclick="showItems('all')">All</li>
+                <li onclick="showItems('biryani')" >Biryani</li>
+                <li onclick="showItems('chicken')">Chicken</li>
+                <li onclick="showItems('pizza')">Pizza</li>
+                <li onclick="showItems('burger')">Burger</li>
+                <li onclick="showItems('pasta')">Pasta</li>
+                <li onclick="showItems('indiancuisine')">Indian Cuisine</li>
+            </ul>
+
+            <div class="container">
+                <div class="restaurant-menu">
+                    <div class="menu-item">
+                        <img src="./image/chicken biryani.jpg"
+                            alt="" />
+
+                        <div class="title">Chicken Biryani</div>
+                        <div class="order flex">
+                            <div class="price">₹150</div>
+                            <a href="#" class="btn btn-menu">Order Now</a>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <img src="./image/friedchicken.jpeg"
+                            alt="" />
+
+                        <div class="title">Fried Chicken</div>
+
+                       
+
+                        <div class="order flex">
+                            <div class="price">₹120</div>
+                            <a href="#" class="btn btn-menu">Order Now</a>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <img src="./image/pizza_order.webp"
+                            alt="" />
+
+                        <div class="title">Cheese Pizza</div>
+
+                        
+
+                        <div class="order flex">
+                            <div class="price">₹220</div>
+                            <a href="#" class="btn btn-menu">Order Now</a>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <img src="./image/chicken-burger.jpg"
+                            alt="" />
+
+                        <div class="title">Chicken Burger</div>
+
+                        
+
+                        <div class="order flex">
+                            <div class="price">₹149</div>
+                            <a href="#" class="btn btn-menu">Order Now</a>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <img src="./image/white sauce pasta.jpg"
+                            alt="" />
+
+                        <div class="title">White Sauce Pasta</div>
+
+                       
+
+                        <div class="order flex">
+                            <div class="price">₹130</div>
+
+                            <a href="#" class="btn btn-menu">Order Now</a>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <img src="./image/CholeBhatureMenu.jpg"
+                            alt="" />
+
+                        <div class="title">Chole Bhature</div>
+
+
+                        <div class="order flex">
+                            <div class="price">₹80</div>
+                            <a href="#" class="btn btn-menu">Order Now</a>
+                        </div>
+                    </div>
+                    
+
+                    <div class="menu-item">
+                        <img src="./image/paneerChilliMenu.jpg"
+                            alt="" />
+
+                        <div class="title">Paneer Chilli</div>
+
+                        
+
+                        <div class="order flex">
+                            <div class="price">₹100</div>
+                            <a href="#" class="btn btn-menu">Order Now</a>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <img src="./image/MasalaDosa.jpg"
+                            alt="" />
+
+                        <div class="title">Masala Dosa</div>
+
+
+                        <div class="order flex">
+                            <div class="price">₹90</div>
+                            <a href="#" class="btn btn-menu">Order Now</a>
+                        </div>
+                    </div>
+
+                    
+
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    
+    <!-- End Restaurant Menu -->
+
+    <!-- FAQ -->
+    <div class="section" id="faq">
+        <h2 class="secondary">Frequently Asked Questions</h2>
+
+        <div class="faq">
+            <details>
+                <summary>What are your delivery hours?</summary>
+                <div class="content">
+                    <p>
+                        Our average delivery time is around 30 minutes. For the most up-to-date information on delivery times, please check our website or contact us.
+                    </p>
+                </div>
+            </details>
+
+            <details>
+                <summary>What is the minimum order amount for delivery?</summary>
+                <div class="content">
+                    <p>
+                        Our minimum order amount for delivery is ₹300. Enjoy the convenience of having your favorite fast food delivered right to your doorstep!
+                    </p>
+                </div>
+            </details>
+
+            <details>
+                <summary>Are there any discounts or promotions available?</summary>
+                <div class="content">
+                    <p>
+                        Yes, we regularly offer discounts and promotions on select items. Check our website or follow us on social media for the latest deals. Don't miss out on our special offers to enjoy delicious meals at great prices!
+                    </p>
+                </div>
+            </details>
+
+            <details>
+                <summary>Do you offer catering services for events?</summary>
+                <div class="content">
+                    <p>
+                        Yes, we offer catering services for events of all sizes. Whether it's a corporate meeting, party, or special occasion, our catering menu is designed to satisfy all tastes. Visit our catering page on the website or contact us for personalized assistance in planning your event.
+                    </p>
+                </div>
+            </details>
+        </div>
+    </div>
+    <!-- End FAQ -->
+
+    <!-- App -->
+    <div class="section" id="app">
+        <div class="container flex">
+            <div class="app-photo">
+                <img width="500px" src="./image/pngegg.png" alt="" />
+            </div>
+
+            <div class="text">
+                <h2 class="secondary">Download The Quick Crave App</h2>
+                <p class="about_stuff">
+                    Enhance your experience with our dedicated mobile app! Download now to enjoy convenient ordering, exclusive deals, and faster delivery. Available on App Store and Google Play. Your favorite meals are just a tap away!
+                </p>
+
+                <div class="download flex">
+                    <div class="app-store">
+                        <ion-icon name="logo-google-playstore"></ion-icon>
+                        <p>
+                            GET IT ON <br />
+                            <span>Google Play</span>
+                        </p>
+                    </div>
+
+                    <div class="app-store">
+                        <ion-icon name="logo-apple"></ion-icon>
+                        <p>
+                            Donload on the <br />
+                            <span>App Store</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End App -->
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="container flex">
+            <div class="footer-about">
+                <h2>About</h2>
+                <p class="about_stuff_bottom">
+                    Welcome to Quick Crave, your go-to destination for swift and savory delights! Dive into our fast-food haven, where every order is a quick ticket to flavorful satisfaction. From classic favorites to speedy bites, Quick Crave is your shortcut to delicious dining experiences. Fast, fresh, and just a click away!
+                </p>
+            </div>
+
+            <div class="footer-category">
+                <h2>Our Menu</h2>
+
+                <ul>
+                    <li>Biryani</li>
+                    <li>Chicken</li>
+                    <li>Pizza</li>
+                    <li>Burger</li>
+                    <li>Pasta</li>
+                    <li>Indian Cuisine</li>
+                </ul>
+            </div>
+
+
+            <div class="quick-links">
+                <h2>Quick Links</h2>
+
+                <ul>
+                    <li>About Us</li>
+                    <li>Contact Us</li>
+                    <li>Menu</li>
+                    <li>Order</li>
+                    <li>Services</li>
+                </ul>
+            </div>
+
+            <div class="get-in-touch">
+                <h2>Get in touch</h2>
+                <ul>
+                    <li>Account</li>
+                    <li>Support Center</li>
+                    <li>Feedback</li>
+                    <li>Suggession</li>
+                </ul>
+            </div>
+        </div>
+
+        
+    </div>
+    <!-- End Footer -->
+
+    <!-- Ion Icons Js -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+</body>
+
+</html>
